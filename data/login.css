@@ -1,0 +1,94 @@
+#cab-table
+{
+	border: solid 2px;
+	float: right;
+}
+
+
+#float_right
+{
+	float: right;
+	width: 70%;
+}
+
+#float_left
+{
+	float: left;
+	width: 30%;
+}
+#botoes_imagem
+{
+	vertical-align: top;
+	width: 20%;
+}
+#botao_pesquisa
+{
+	width: 30%;
+	height: 5%;
+}
+#table1
+{
+	margin: 1px;
+	float: left;
+}
+#table2
+{
+	float: right;
+	width: 720px;
+	height: 630px;
+}
+table,td,tr
+{
+	border: solid 1px;
+	border-collapse: collapse;
+}
+#perfil_image
+{
+	float: left;
+}
+
+#dados_pessoais_perfil
+{
+	margin-top: 100px;
+	margin-left: 250px;
+}
+#opcoes_perfil
+{
+	//border: solid 1px;
+	margin-top: 150px;
+	margin-left: 30px;
+	width: 40%;
+
+}
+#perfil_table
+{
+	align: center;
+	height: 250px;
+	width: 600px
+}
+#fatec_perfil_logo
+{
+	width: 50%;
+	margin-top: 10px;
+}
+
+#button_link
+{
+	text-decoration-style: none;
+}
+
+#formulario-input
+{
+	margin-right: 600px;
+}
+#formulario
+{
+	margin-left: 600px;
+}
+
+#perfil_botoes_imagem
+{
+	
+	width: 100%;
+
+}
