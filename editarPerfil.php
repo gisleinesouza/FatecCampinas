@@ -1141,7 +1141,7 @@
                   <a href="contribua.php"> <button type="button" class="btn btn-secondary">Contribua para o Boletim</button> </a> <br><br>
                   <a href="meusartigos.php"> <button type="button" class="btn btn-secondary">Meus artigos enviados</button> </a> <br><br>
                   <a href="editarPerfil.php"><button type="button" class="btn btn-secondary">Editar Perfil</button></a> <br><br>
-                  <a href="index.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
+                  <a href="login_aluno.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
                   <div class="btn-group" role="group"> <br>
                     
          </div>

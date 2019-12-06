@@ -1157,190 +1157,26 @@
         <div class="g-menu-overlay"></div>
         <div class="g-offcanvas-hide g-offcanvas-toggle" role="navigation" data-offcanvas-toggle="" aria-controls="g-offcanvas" aria-expanded="false"><i class="fa fa-fw fa-bars"></i></div>
 
-        <header id="g-header">
-<img src="./contribua_files/banner.png" width="100%">            
+       
 
-        </header>
+        
 
-        <section id="g-navigation">
-            <div class="g-container">
-                <div class="g-grid">
-
-                    <div class="g-block size-100">
-                        <div id="menu-6953-particle" class="g-content g-particle">
-                            <nav class="g-main-nav" data-g-hover-expand="true"><ul class="g-toplevel">
-
-                                    <li class="active g-menu-item g-menu-item-101 g-menu-item-type-component g-standard">
-                                        <a class="g-menu-item-container" href="http://localhost/index.php">
-                                            <i class="fa fa-home" aria-hidden="true"></i>
-                                            <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Home</span>
-
-                                            </span>
-                                        </a>
-                                    </li>
-
-<li class="g-menu-item g-menu-item-206 g-menu-item-type-heading g-parent g-standard">
-                                       <div class="g-menu-item-container" data-g-menuparent=""><span class="g-nav-header g-menu-item-content">            </span><a href="http://localhost/perfil.php"><span class="g-menu-item-title">Perfil</span></a>
-                                            
-                                            </div>
-                                        
-                                    </li>
-                                        <li class="g-menu-item g-menu-item-206 g-menu-item-type-heading g-parent g-standard">
-                                        <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Logins</span>
-                                            </span>
-                                             </div>
-                                        <ul class="g-dropdown g-dropdown-right g-fade g-inactive">
-                                            <li class="g-dropdown-column">
-                                                <div class="g-grid">
-                                                    <div class="g-block size-100">
-                                                        <ul class="g-sublevel">
-                                                            <li class="g-level-1 g-go-back">
-                                                                <a class="g-menu-item-container" href="https://www.fateccampinas.com.br/site/#" data-g-menuparent=""><span>Back</span></a>
-                                                            </li>
-
-                                                            <li class="g-menu-item g-menu-item-105 g-menu-item-link-parent g-menu-item-type-alias g-parent">
-                                                                <a class="g-menu-item-container" href="http://localhost/login_aluno.php">
-                                                                    <span class="g-menu-item-content">
-                                    
-										<span class="g-menu-item-title">Aluno</span>
-                                                                    </span>
-                                                                
-
-                                                            </a></li><a class="g-menu-item-container" href="http://localhost/login_aluno.php">
-
-                                                            </a><li class="g-menu-item g-menu-item-114 g-menu-item-link-parent g-menu-item-type-alias g-parent"><a class="g-menu-item-container" href="http://localhost/login_aluno.php">
-                                                                </a><a class="g-menu-item-container" href="http://localhost/login_docente.php">
-                                                                    <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Docentes</span>
-
-                                                                    </span>
-                                                                </a>
-
-                                                            </li>
-
-                                                            <li class="g-menu-item g-menu-item-249 g-menu-item-type-url">
-
-                                                            </li>
-
-                                                            <li class="g-menu-item g-menu-item-208 g-menu-item-type-component">
-
-                                                            </li>
-
-                                                        </ul>
-                                                    </div>
-                                                </div>
-
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    
-
-                                    
-
-                                    
-<li class="g-menu-item g-menu-item-210 g-menu-item-type-heading g-parent g-standard">
-                                        <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Boletim</span>
-                                            </span>
-                                             </div>
-                                        <ul class="g-dropdown g-dropdown-right g-fade g-inactive">
-                                            <li class="g-dropdown-column">
-                                                <div class="g-grid">
-                                                    <div class="g-block size-100">
-                                                        <ul class="g-sublevel">
-                                                            
-
-                                                            
-
-                                                            <li class="g-menu-item g-menu-item-342 g-menu-item-type-component">
-                                                                <a class="g-menu-item-container" href="http://localhost/anteriores.php">
-                                                                    <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Boletims Anteriores</span>
-
-                                                                    </span>
-                                                                </a>
-                                                            </li>
-
-                                                            <li class="g-menu-item g-menu-item-211 g-menu-item-type-url">
-                                                                <a class="g-menu-item-container" href="http://localhost/contribua.php" target="_blank">
-                                                                    <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Contribua com o FatecNews</span>
-
-                                                                    </span>
-                                                                </a>
-                                                            </li>
-
-                                                            <li class="g-menu-item g-menu-item-334 g-menu-item-type-component">
-                                                                <a class="g-menu-item-container" href="http://localhost/calendario.php">
-                                                                    <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Calendario
-</span>
-
-                                                                    </span>
-                                                                </a>
-                                                            </li>
-
-                                                        </ul>
-                                                    </div>
-                                                </div>
-
-                                            </li>
-                                        </ul>
-                                    </li><li class="g-menu-item g-menu-item-210 g-menu-item-type-heading g-parent g-standard">
-                                        <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content">            <span class="g-menu-item-title">Sobre</span>
-                                            </span>
-                                             </div>
-                                        
-                                    </li>
-
-                                    
-
-                                    
-
-                                    
-
-                                    <li class="g-menu-item g-menu-item---module-plF55 g-menu-item-type-particle g-standard">
-                                        <div class="g-menu-item-container" data-g-menuparent="">
-                                            <div class="menu-item-particle">
-                                                <div class="platform-content">
-                                                    <div class="moduletable ">
-
-                                                        <div class="finder">
-                                                            <form id="mod-finder-searchform144" action="https://www.fateccampinas.com.br/site/index.php/component/finder/search" method="get" class="form-search" role="search">
-                                                                <input type="text" name="q" id="mod-finder-searchword144" class="search-query input-medium" size="25" value="" placeholder="Pesquisar..." autocomplete="off">
-                                                                <label for="mod-finder-searchword144" class="element-invisible finder">Pesquisa</label>
-                                                                <input type="hidden" name="Itemid" value="101"> </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </li>
-
-                                </ul>
-                                
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
+        <?php include_once("header.php")  ?>
 
         
         <main id="g-main">
+        <h1>Enviar Contribuições</h1>  
+        <p >
+			Aqui voc&ecirc; pode fazer uploads dos seus artigos,<br>
+			Os arquivos ser&atilde;o enviados &agrave; editoria para serem analisados<br>
+			Por favor, envie os arquivos em Word.
+		</p>  
 		<form action=""contribua.php method="post" enctype="multipath/form-data">
 		<span style="margin-left:30%;">Comentario:</span><br>
 		<div align="center">
 		<textarea name="comentario" style="float" name="textfield" cols="100" rows="10"></textarea>
         <input type="file" name="arquivo" style="margin-left:5%;">
-        <p >
-			Aqui voc&ecirc; pode fazer uploads dos seus artigos,<br>
-			Os arquivos ser&atilde;o enviados &agrave; editoria, para serem analizado<br>
-			envie os arquivos em compatados (.zip, .rar ...).
-		</p> 
+        
 		<input type="submit" name="envio">
         </div>
         </form>
@@ -1398,7 +1234,7 @@
 				printf("Aguarde at&eacute; aprova&ccedil;&atilde;o");
 		?>
         </main>
-
+        <?php include_once("footer.php")  ?>
         <footer id="g-footer">
             <div class="g-container">
                 <div class="g-grid">

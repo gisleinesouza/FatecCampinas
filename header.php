@@ -138,54 +138,13 @@
                                 </div>
 
                             </li>
-                            <li class="g-menu-item g-menu-item-206 g-menu-item-type-heading g-parent g-standard">
-                                <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content"> <span class="g-menu-item-title">Logins</span>
+                         
+                            <li class="g-menu-item g-menu-item-210 g-menu-item-type-heading g-parent g-standard">
+                                <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content">
+                                <a href="login_aluno.php"><span class="g-menu-item-title">Logar</span></a>
                                     </span>
                                 </div>
-                                <ul class="g-dropdown g-dropdown-right g-fade g-inactive">
-                                    <li class="g-dropdown-column">
-                                        <div class="g-grid">
-                                            <div class="g-block size-100">
-                                                <ul class="g-sublevel">
-                                                    <li class="g-level-1 g-go-back">
-                                                        <a class="g-menu-item-container" href="/site/#" data-g-menuparent=""><span>Back</span></a>
-                                                    </li>
 
-                                                    <li class="g-menu-item g-menu-item-105 g-menu-item-link-parent g-menu-item-type-alias g-parent">
-                                                        <a class="g-menu-item-container" href="login_aluno.php">
-                                                            <span class="g-menu-item-content">
-
-                                                                <span class="g-menu-item-title">Aluno</span>
-                                                            </span>
-
-
-                                                        </a></li><a class="g-menu-item-container" href="login_aluno.php">
-
-                                                    </a>
-                                                    <li class="g-menu-item g-menu-item-114 g-menu-item-link-parent g-menu-item-type-alias g-parent"><a class="g-menu-item-container" href="login_aluno.php">
-                                                        </a><a class="g-menu-item-container" href="login_docente.php">
-                                                            <span class="g-menu-item-content">
-                                                                <span class="g-menu-item-title">Docentes</span>
-
-                                                            </span>
-                                                        </a>
-
-                                                    </li>
-
-                                                    <li class="g-menu-item g-menu-item-249 g-menu-item-type-url">
-
-                                                    </li>
-
-                                                    <li class="g-menu-item g-menu-item-208 g-menu-item-type-component">
-
-                                                    </li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                    </li>
-                                </ul>
                             </li>
 
 
@@ -193,53 +152,13 @@
 
 
 
-                            <li class="g-menu-item g-menu-item-210 g-menu-item-type-heading g-parent g-standard">
-                                <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content"> <span class="g-menu-item-title">Boletim</span>
+
+                         <li class="g-menu-item g-menu-item-210 g-menu-item-type-heading g-parent g-standard">
+                                <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content">
+                                <a href="anteriores.php"><span class="g-menu-item-title">Boletins</span></a>
                                     </span>
                                 </div>
-                                <ul class="g-dropdown g-dropdown-right g-fade g-inactive">
-                                    <li class="g-dropdown-column">
-                                        <div class="g-grid">
-                                            <div class="g-block size-100">
-                                                <ul class="g-sublevel">
 
-
-
-
-                                                    <li class="g-menu-item g-menu-item-342 g-menu-item-type-component">
-                                                        <a class="g-menu-item-container" href="anteriores.php">
-                                                            <span class="g-menu-item-content">
-                                                                <span class="g-menu-item-title">Boletins Anteriores</span>
-
-                                                            </span>
-                                                        </a>
-                                                    </li>
-
-                                                    <li class="g-menu-item g-menu-item-211 g-menu-item-type-url">
-                                                        <a class="g-menu-item-container" href="contribua.php" target="_blank">
-                                                            <span class="g-menu-item-content">
-                                                                <span class="g-menu-item-title">Contribua com o FatecNews</span>
-
-                                                            </span>
-                                                        </a>
-                                                    </li>
-
-                                                    <li class="g-menu-item g-menu-item-334 g-menu-item-type-component">
-                                                        <a class="g-menu-item-container" href="calendario.php">
-                                                            <span class="g-menu-item-content">
-                                                                <span class="g-menu-item-title">Calendario
-                                                                </span>
-
-                                                            </span>
-                                                        </a>
-                                                    </li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                    </li>
-                                </ul>
                             </li>
                             <li class="g-menu-item g-menu-item-210 g-menu-item-type-heading g-parent g-standard">
                                 <div class="g-menu-item-container" data-g-menuparent=""> <span class="g-nav-header g-menu-item-content">
