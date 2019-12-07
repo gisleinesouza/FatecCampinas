@@ -1,6 +1,5 @@
 <?php
-	if(session_status()!=PHP_SESSION_ACTIVE)
-	session_start();
+if (session_status() != PHP_SESSION_ACTIVE) session_start();
 ?>
 
  <meta charset="UTF-8">
@@ -112,7 +111,7 @@
             width: 200px;
             font-size: 16px;
             font-weight: bold;
-            float: left
+            float: right;
         }
         
         #g-navigation {
@@ -225,6 +224,18 @@
             margin-top: -11px;
             margin-left: -11px;
         }
+        
+        .ap{
+            margin-left: 20px;
+            float: left;
+        }
+
+            
+        .app{
+           margin-right: 5px;
+        }
+        
+        
         
         .n2-ss-spinner-simple-white:not(:required):before {
             content: '';
@@ -1037,15 +1048,14 @@
         <div class="g-menu-overlay"></div>
         <div class="g-offcanvas-hide g-offcanvas-toggle" role="navigation" data-offcanvas-toggle="" aria-controls="g-offcanvas" aria-expanded="false"><i class="fa fa-fw fa-bars"></i></div>
 
-        <?php include_once("header.php")  ?>
+        <?php include_once ("header.php") ?>
 
 <?php
-	$conexao = mysqli_connect("localhost","root","","fatec");
-	if(mysqli_connect_errno())
-	{
-		printf("Erro de conexao");
-		exit();
-	}
+$conexao = mysqli_connect("localhost", "root", "", "fatec");
+if (mysqli_connect_errno()) {
+    printf("Erro de conexao");
+    exit();
+}
 /*	$csrf = $_POST['ant_csrf'];
 	if(strcmp($csrf,$_SESSION['csrf'])!=0)
 	{
@@ -1064,34 +1074,30 @@
 		</script>
 		");
 	}*/
-	if(!isset($_SESSION['login']))
-	{
-			$mensagem = "loge-se";
-			printf("
+if (!isset($_SESSION['login'])) {
+    $mensagem = "loge-se";
+    printf("
 			<form action=\"login_aluno.php\" method=\"post\" id=\"retorno\">
 				<input type=\"hidden\" name=\"retorno\" value=$mensagem>
 			</form>
 			");
-			printf("
+    printf("
 			<script type=\"text/javascript\">
 					document.getElementById('retorno').submit();
 			</script>
-			");			
-	}
-	if(isset($_SESSION['nome']))
-	{
-		$nome = $_SESSION['nome'];
-	}
-	if(isset($_SESSION['email']))
-	{	
-		$email = $_SESSION['email'];
-	}
-	if(isset($_SESSION['telefone']))
-	{	
-		$telefone = $_SESSION['telefone'];
-	}
+			");
+}
+if (isset($_SESSION['nome'])) {
+    $nome = $_SESSION['nome'];
+}
+if (isset($_SESSION['email'])) {
+    $email = $_SESSION['email'];
+}
+if (isset($_SESSION['telefone'])) {
+    $telefone = $_SESSION['telefone'];
+}
 ?>
-                  
+            <div class="ap">
                     <form action="registrar_aluno.php" method="post" enctype="multipart/form-data">
 				<strong>Nome:</strong><input type="text" name="nome" value = $nome id="formulario-input">
 				<br>
@@ -1104,60 +1110,49 @@
 				<br>
 				<strong>Senha:</strong><input type="password" name="senha" id="formulario-input">
 				<br>
-				<br>
-<?php
-/*
-				Professor: <input type="radio" name="tipo" value="Professor" id="formulario-input">
-				<br>
-				Aluno: <input type="radio" name="tipo" value="Aluno" id="formulario-input">
-*/
-?>
-            
+                <br>
+                
 				Celular: 
 				<input type="tel" name="telefone" id="formulario-input"><br><!pattern="9[0-9]{4}-[0-9]{4}" id="formulario-input" value="9XXXX-XXXX">
 				<br>
-				<br>
-				Editar Imagem de Perfil:
+                <br>
+                <br>
+                <br>	
+			 </div>
+             <div float="right"; class="btn-group-vertical" role="group">
+                  <a href="contribua.php"> <button type="button" class="btn btn-secondary">Contribua para o Boletim</button> </a> <br><br>
+                  <a href="meusartigos.php"> <button type="button" class="btn btn-secondary">Meus artigos enviados</button> </a> <br><br>
+                  <a href="editarPerfil.php"><button type="button" class="btn btn-secondary">Editar Perfil</button></a> <br><br>
+                  <a href="login_aluno.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
+                  <div class="btn-group" role="group"> <br>
+            </div>
+</div>
+            <div align="center">
+             Editar Imagem de Perfil:
 				<br>
                 <input type="file" name="imagem" value="upload">
-                <div style="float:left; margin-left:10%; margin-top:1%;">
-                <?php
-
-								print "<img src='data/{$_SESSION['login']}.png' width=\"%\"><br><br>";
-								printf("<h4>Nome: %s</h3>",$nome);
-                                
-                            ?>
+                <div align="center">
+                
+                    <?php
+                        print "<br>";
+                        print "<img src='data/{$_SESSION['login']}.png' width=\"%\"><br><br>";
+                        printf("<h4>Nome: %s</h3>", $nome);
+?>
                             </div>
 				<br>
 				<br>
 				<input type="submit" name="submited" value="Salvar"> <a href="perfil.php" id="button_link">
                 <input type="button" value="voltar"></a><br>
 				<br>
-                </form>
-        
-				<br>
-                <br>	
-				<div class="btn-group-vertical" role="group">
-                  <a href="contribua.php"> <button type="button" class="btn btn-secondary">Contribua para o Boletim</button> </a> <br><br>
-                  <a href="meusartigos.php"> <button type="button" class="btn btn-secondary">Meus artigos enviados</button> </a> <br><br>
-                  <a href="editarPerfil.php"><button type="button" class="btn btn-secondary">Editar Perfil</button></a> <br><br>
-                  <a href="login_aluno.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
-                  <div class="btn-group" role="group"> <br>
-                    
-         </div>
-         <br>
-         <br>   
-         <br>   
-			
+                </form>  
+            </div>      
+        </div>                
+</div>
+   
                    
 					</div>
-		<br>
-		<br>
-		<br>
-		<br><br><br><br><br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-
-    <?php include_once("footer.php")  ?>
-
+<div>
+    <?php include_once ("footer.php") ?>
+</div>
 

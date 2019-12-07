@@ -1025,126 +1025,23 @@
                <font size ='4'> O Boletim FatecNews é um jornal institucional mensal da FATEC Campinas, criado com o intuito de informar e divulgar informações pertinentes aos alunos, professores, funcionários e interessados.<br>
                 O boletim informativo da FATEC Campinas aborda temas das diversas áreas da tecnologia, além de classificados para que a comunidade acadêmica possa divulgar seus serviços. <br>
                 O jornal é organizado por um professor responsável que seleciona as contribuições enviadas através do site, formata e cria o arquivo. <br>
-                Todos podem enviar contribuições para o site, basta entrar na sua área logada, ou no menu Boletim,  <a href="contribua.php"><b><u>Contribua com o FatecNews </u></b></a>.
+                Todos podem enviar contribuições para o site, basta entrar na sua área logada, ou no menu Boletim,  <a href="contribua.php"><b><u>Contribua com o FatecNews </u></b></a>. <br>Surgimento da Solução
+Em consequência do conhecimento do processo para a elaboração do Boletim “FatecNews”
+um grupo de estudantes do curso GTI do 4° semestre noturno, percebeu que o processo
+poderia ter algumas atividades otimizadas e melhoradas com o apoio de um sistema,
+integrando ainda mais participação do aluno com sua faculdade.
+Inicialmente foi pensado criar no próprio SIGA uma área destinada apenas ao boletim,
+intitulada “FatecNews”. Onde lá poderia ter o usuário logado acesso a todas as edições
+anteriores do jornal, além da versão atual.
+Com o sistema desenvolvido por eles as opções desta área sofrem variações de acordo com o
+usuário logado, já que o departamento de edição do jornal, a diretoria, professores ou alunos
+possuirão diferentes papéis e interações possíveis com o sistema do processo realize a
+publicação do boletim FatecNews.
                  </font></p>
             
     </div>
 
         </main>
 
-        <section id="g-subfeature" class="flush">
-            <div class="g-container">
-                <div class="g-grid">
-
-                    <div class="g-block size-100">
-                        <div id="sample-3-particle" class="g-content g-particle">
-                            <div class="sample-content">
-                                <div class="g-grid">
-                                    <div class="g-block">
-                                        <div class="g-content">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="g-grid">
-                                    <div class="g-block  ">
-                                        <div class="g-content">
-                                            <i class="fa fa-university sample-icons"></i>
-                                            <h4>Fatec Campinas</h4>
-
-                                            <p><a href="http://www.fateccampinas.com.br/site/index.php?option=com_content&amp;view=article&amp;layout=edit&amp;id=9">Sobre</a></p>
-                                            <p><a href="http://www.fateccampinas.com.br/site/index.php?option=com_content&amp;view=article&amp;layout=edit&amp;id=10">Endereço</a></p>
-                                            <p><a href="http://www.cps.sp.gov.br/" target="_blank">Centro Paula Souza</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="g-block  ">
-                                        <div class="g-content">
-                                            <i class="fa fa-globe sample-icons"></i>
-                                            <h4>Acadêmico</h4>
-
-                                            <p><a href="http://www.fateccampinas.com.br/site/index.php/institucional/professor/curriculo-lattes1">Docentes</a></p>
-
-                                        </div>
-                                    </div>
-                                    <div class="g-block  ">
-                                        <div class="g-content">
-                                            <i class="fa fa-cubes sample-icons"></i>
-                                            <h4>Campus Life</h4>
-
-                                            <p><a href="http://www.fateccampinas.com.br/site/index.php/calendario-de-eventos">Calendário de Eventos</a></p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-
-        <footer id="g-footer">
-            <div class="g-container">
-                <div class="g-grid">
-
-                    <div class="g-block size-40">
-                        <div id="copyright-6153-particle" class="g-content g-particle"> © 2019 Fatec Campinas, SP | Telefone: +55 19 3216.6474
-                        </div>
-                    </div>
-
-                    <div class="g-block size-37 center">
-                        <div id="social-5251-particle" class="g-content g-particle">
-                            <div class="g-social social-items">
-                                <a href="https://www.facebook.com/fateccps/" title="Facebook" aria-label="Facebook">
-                                    <span class="fa fa-facebook"></span> <span class="g-social-text">Facebook</span> </a>
-                                <a href="http://www.fatec.sp.gov.br/view/Default.aspx" title="E-mail" aria-label="E-mail">
-                                    <span class="fa fa-envelope"></span> <span class="g-social-text">E-mail</span> </a>
-                                <a href="https://aka.ms/devtoolsforteaching" title="Microsoft Azure" aria-label="Microsoft Azure">
-                                    <span class="fa fa-windows"></span> <span class="g-social-text">Microsoft Azure</span> </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="g-block size-23 align-right">
-                        <div id="branding-9439-particle" class="g-content g-particle">
-                            <div class="g-branding branding">
-                                Powered by <a title="Gantry Framework" class="g-powered-by">Gantry Framework</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
-
-    </div>
-
-    <script type="text/javascript" src="./anteriores_files/main.js"></script>
-
-    <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div>
-    <div style="font-size:10rem;"></div>
-    <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div>
-    <div style="font-size:10rem;"></div>
-    <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div>
-    <div style="font-size:10rem;"></div>
-    <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div>
-    <div style="font-size:10rem;"></div>
-
-
-
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div></body></html>
+        <?php include_once("footer.php")  ?>
+       </div></body></html>

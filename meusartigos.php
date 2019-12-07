@@ -1141,7 +1141,7 @@
          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-         <div >
+         <div>
          <?php include_once("footer.php")?> 
          </div>
 

@@ -1109,8 +1109,7 @@
                 <br>	
 				<div class="btn-group-vertical" role="group">
                   <a href="analiseboletim.php"> <button type="button" class="btn btn-secondary">Análise do Boletim</button> </a> <br><br>
-                  <a href="editarPerfil.php"><button type="button" class="btn btn-secondary">Editar Perfil</button></a> <br><br>
-                  <a href="index.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
+                  <a href="login_aluno.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
                   <div class="btn-group" role="group"> <br>
                     
          </div>
@@ -1118,21 +1117,14 @@
          <br>   
          <br>   
 			
-                    <img width=20% src="data/fatec.jpg" alt="FatecNews">
-							<br>
-							<form action="search.php" method="post">
-								<input type="text" name="buscar">
-								<br>
-								<br>
-								<input type="submit" id="botao_pesquisa" value="pesquisar">
-							</form>
+                  
 					</div>
 		<br>
 		<br>
 		<br>
 		<br><br><br><br><br><br><br><br><br><br><br><br>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <?php include_once("pre_footer.php")  ?>
+    
 
     <script type="text/javascript" src="./index_files/main.js"></script>
 
@@ -1147,18 +1139,3 @@
 
     <?php include_once("footer.php")  ?>
 
-
-
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div></body></html>

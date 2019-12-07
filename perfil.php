@@ -1099,7 +1099,6 @@
 
 								print "<img src='data/{$_SESSION['login']}.png' width=\"40%\"><br><br>";
 								printf("<h4>Nome: %s</h3>",$nome);
-                                printf("<h4>Curso: %s</h4>",$telefone);
 								printf("<h4>Email: %s</h3>",$email);
 								printf("<h4>Telefone: %s</h3>",$telefone);
                                 
@@ -1119,13 +1118,7 @@
          <br>   
          <br>   
 			
-                    <img width=20% src="data/fatec.jpg" alt="FatecNews">
-							<br>
-							<form action="search.php" method="post">
-								<input type="text" name="buscar">
-								<br>
-								<br>
-								<input type="submit" id="botao_pesquisa" value="pesquisar">
+                    
 							</form>
 					</div>
 		<br>
@@ -1133,7 +1126,7 @@
 		<br>
 		<br><br><br><br><br><br><br><br><br><br><br><br>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <?php include_once("pre_footer.php")  ?>
+   
 
     <script type="text/javascript" src="./index_files/main.js"></script>
 
@@ -1149,17 +1142,3 @@
     <?php include_once("footer.php")  ?>
 
 
-
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div>
-<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 300px; max-height: 400px; z-index: 9999;"></div><div style="font-size:10rem;"></div></body></html>

@@ -353,6 +353,12 @@
             border-right: 2px solid transparent;
             animation: n2SimpleWhite .6s linear infinite;
         }
+
+        
+        .ap{
+            margin-left: 20px;
+        }
+        
         
         @keyframes n2SimpleWhite {
             to {
@@ -1165,20 +1171,26 @@
 
         
         <main id="g-main">
+            <div class=ap>
         <h1>Enviar Contribuições</h1>  
         <p >
 			Aqui voc&ecirc; pode fazer uploads dos seus artigos,<br>
 			Os arquivos ser&atilde;o enviados &agrave; editoria para serem analisados<br>
 			Por favor, envie os arquivos em Word.
-		</p>  
+        </p>  
+        Tema: 
+				<input type="tema" name="tema" id="formulario-input"><br><!pattern="9[0-9]{4}-[0-9]{4}" id="formulario-input" value="9XXXX-XXXX">
+				<br>
+				<br>
 		<form action=""contribua.php method="post" enctype="multipath/form-data">
 		<span style="margin-left:30%;">Comentario:</span><br>
 		<div align="center">
-		<textarea name="comentario" style="float" name="textfield" cols="100" rows="10"></textarea>
+		<textarea name="comentario" style="float" name="textfield" cols="100" rows="5"></textarea>
         <input type="file" name="arquivo" style="margin-left:5%;">
         
 		<input type="submit" name="envio">
         </div>
+    </div>
         </form>
        	<?php
 			$servidor = 'localhost';

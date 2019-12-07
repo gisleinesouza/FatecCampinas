@@ -17,14 +17,14 @@
 
                     <div class="g-block size-37 center">
                         <div id="social-5251-particle" class="g-content g-particle">
-                            <div class="g-social social-items">
+                            <div class="social-fundo social-items">
                                 <h3>Redes Sociais </h3>
                                 <a href="https://www.facebook.com/fateccps/" title="Facebook">
-                                <IMG SRC="f.png" width=50px height=50px><span class="g-social-text"></span> </a>
+                                <img src="f.svg" class="img_social"></a>
                                 <a href="https://www.instagram.com/fateccampinas/" title="Instagram">
-                                <IMG SRC="i.jpg" width=50px height=50px><span class="g-social-text"></span> </a>
+                                <img src="i.svg" class="img_social"></a>
                                 <a href="https://www.linkedin.com/company/fatec-campinas?originalSubdomain=br" title="LinkedIn">
-                                <IMG SRC="l.png" width=50px height=50px><span class="g-social-text"></span> </a>
+                                <img src="l.svg" class="img_social" ></a>
                             </div>
                         </div>
                     </div>
@@ -41,3 +41,22 @@
             </div>
 
         </footer>
+    
+    <style>
+        h3 {
+            color: white
+        }
+
+        h3 a {
+            color: white
+        }
+    social-fundo  {
+        background: white
+    }
+    .img_social {
+        width: 50px;
+        height: 50px;
+        padding: 3px
+    }
+
+    </style>

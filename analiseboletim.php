@@ -1112,14 +1112,14 @@
 			
     </div>
     
-</script>s
+</script>
 				</div>
 				<br>
                 <br>	
 				<div class="btn-group-vertical" role="group">
-                  <a href="contribua.php"> <button type="button" class="btn btn-secondary">Aprovar Boletim</button> </a> <br><br>
+                  <a href="aprovado.php"> <button type="button" class="btn btn-secondary">Aprovar Boletim</button> </a> <br><br>
                   <button type="button" class="btn btn-secondary" onclick="alert('Boletim Rejeitado!')">Rejeitar Boletim</button></a><br>
-                  <a href="editarPerfil.php"><button type="button" class="btn btn-secondary">Rejeitar parcialmente Boletim</button></a> <br><br>
+                  <a href="parcial.php"><button type="button" class="btn btn-secondary">Rejeitar parcialmente Boletim</button></a> <br><br>
                   <a href="login_aluno.php"> <button type="button" class="btn btn-secondary">Sair</button></a>
                   <div class="btn-group" role="group"> <br>
                   </div>
